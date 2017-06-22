@@ -4,6 +4,6 @@ import { Injectable } from '@angular/core';
 export class LoggingService{
     logToConsole(status : String)
     {
-        console.log("Logging");
+        console.log("Logging " + status);
     }
-}
+}   
